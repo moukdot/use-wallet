@@ -16,7 +16,7 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint src",
     "prepublishOnly": "git push && git push --tags",
-    "prepare": "rmdir dist /s /q && yarn build"
+    "prepare": "yarn build"
   },
   "dependencies": {
     "@aragon/provided-connector": "^6.0.8",
